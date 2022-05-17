@@ -13,7 +13,4 @@ class KconfigFrontends < Formula
     system "make", "install"
   end
 
-  test do
-    system "#{bin}/kconfig-conf"
-  end
 end

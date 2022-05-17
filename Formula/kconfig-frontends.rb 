@@ -10,6 +10,7 @@ class KconfigFrontends < Formula
         "--disable-dependency-tracking",
         "--disable-nconf",
         "--prefix=#{prefix}"
+    system "make"
     system "make", "install"
   end
 
